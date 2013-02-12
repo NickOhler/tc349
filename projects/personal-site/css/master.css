@@ -8,7 +8,7 @@ h1 {
 	margin: 0px;
 	padding: 20px 15px;
 	background: #A30000;
-	color: #D8D8DC;
+	color: #FFF;
 	text-align: center;
 	text-shadow: 1px 1px 10px #000000;
 }
@@ -19,7 +19,9 @@ h1 {
 }
 
 .nav {
-	padding-top: 15px;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	margin-top: 15px;
 	text-align: center;
 	font-size: 30px;
 }
