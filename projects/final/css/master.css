@@ -1,0 +1,263 @@
+body {
+	background: #EAEAEA;
+}
+
+h1 {
+	padding-top: 75px;
+}
+
+.container 	{
+	position: absolute;
+	z-index: -100;
+	width: 1000px;
+	height: 5500px;
+	margin: 25px 0px 25px 0px;
+	background: #F2F2F2;
+	top: 0px;
+	left: 50%;
+	margin-left: -500px;
+	border-left: 2px solid #D4D4D4;
+	border-right: 2px solid #D4D4D4;
+	border-bottom: 2px solid #D4D4D4;
+	margin-bottom: 25px;
+}
+
+.container-hat {
+	position: fixed;
+	z-index: -10;
+	background: #333333;
+	width: 1000px;
+	height: 50px;
+	top: 0;
+	left: 50%;
+	margin-left: -500px;
+	border: 2px solid #333333;
+}
+
+.PageHead {
+	position: absolute;
+	z-index: -10;
+	color: #F80000;
+	font-size: 40px;
+	margin-top: -105px;
+	padding-left: 20px;
+}
+
+.container-hat-flaps 	{
+	margin-top: -17px;
+}
+
+.left-bar {
+	z-index: -99;
+	background: #F3F3F3;
+	width: 90px;
+	height: 2500px;
+	position: fixed;
+	margin-top: 0px;
+	margin-left: 12px;
+	margin-bottom: 0px;
+	box-shadow: 0 0px 3px 3px #D4D4D4;
+}
+
+.icon1 {
+	z-index: -5;
+	margin-top: 55px;
+}
+
+.icon2 {
+	padding-top: 40px;
+}
+
+.icon3 {
+	padding-top: 40px;
+}
+
+.icon4 {
+	padding-top: 40px;
+}
+
+.BigBox {
+	z-index: -100;
+	width: 500px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 130px;
+}
+
+.BigBoxContent {
+	z-index: -100;
+	position: relative;
+	width: 476px;
+	height: 330px;
+	margin-left: 12px;
+	background: #FFF;
+	box-shadow: 0 0px 3px 3px #D4D4D4;	
+}
+
+.BigBoxHat {
+	z-index: -99;
+	position: absolute;
+	background: #333333;
+	width: 500px;
+	height: 70px;
+}
+
+.BigBoxHatFlaps {
+	z-index: -100;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.BigBox2 {
+	z-index: -100;
+	width: 500px;
+	height: 550px;
+	margin-top: -400px;
+	margin-left: 470px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.BigBoxContent2 {
+	z-index: -100;
+	position: relative;
+	width: 476px;
+	height: 500px;
+	margin-left: 12px;
+	background: #FFF;
+	box-shadow: 0 0px 3px 3px #D4D4D4;	
+}
+
+.BigBoxHat2 {
+	position: absolute;
+	z-index: -99;
+	background: #333333;
+	width: 500px;
+	height: 70px;
+}
+
+.BigBoxHatFlaps2 {
+	z-index: -100;
+	margin-top: 70px;
+	position: absolute;
+}
+
+.SmallBox {
+	z-index: -100;
+	width: 310px;
+	height: 330px;
+	margin-top: -400px;
+	margin-left: 660px;
+	margin-right: 20px;
+}
+
+.SmallBox2 {
+	z-index: -100;
+	width: 310px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 130px;
+	margin-right: 20px;
+}
+
+.SmallBoxContent {
+	z-index: -101;
+	position: relative;
+	width: 286px;
+	height: 330px;
+	background: #FFF;
+	margin-left: 12px;
+	box-shadow: 0 0px 3px 3px #D4D4D4;
+}
+
+.SmallBoxContent2 {
+	z-index: -100;
+	position: relative;
+	width: 286px;
+	height: 400px;
+	background: #FFF;
+	margin-left: 12px;
+	box-shadow: 0 0px 3px 3px #D4D4D4;
+}
+
+.SmallBoxHat {
+	z-index: -100;
+	position: absolute;
+	width: 310px;
+	height: 70px;
+	background: #333333;
+}
+
+.SmallBoxHat2 {
+	position: absolute;
+	z-index: -99;
+	width: 310px;
+	height: 70px;
+	background: #333333;
+}
+
+.SmallBoxHatFlaps {
+	z-index: -100;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.SmallBoxHatFlaps2 {
+	z-index: -100;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.FullWidthBox2 {
+	z-index: -100;
+	width: 850px;
+	height: 500px;
+	margin-left: 130px;
+	margin-top: -50px;
+}
+
+.FullWidthBox2Content {
+	z-index: -101;
+	position: relative;
+	width: 826px;
+	height: 500px;
+	background: #FFF;
+	margin-left: 12px;
+	box-shadow: 0 0px 3px 3px #D4D4D4;
+}
+
+.FullWidthBox2Hat {
+	position: absolute;
+	z-index: -100;
+	width: 850px;
+	height: 70px;
+	background: #333333;
+}
+
+.FullWidthBox2HatFlaps {
+	z-index: -100;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.nav {
+	color: #FFFFFF;
+	padding-left: 100px;
+	right: 0;
+	z-index: -1;
+	display: inline;
+}
+
+.nav ul {
+	z-index: -1;
+	margin-left: 600px;
+}
+
+.nav li {
+	z-index: -1;
+	padding-right: 20px;
+	display: inline;
+}
+
+
+
